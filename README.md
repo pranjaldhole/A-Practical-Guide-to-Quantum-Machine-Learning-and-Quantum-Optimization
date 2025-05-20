@@ -76,3 +76,34 @@ From July 2020 to January 2021, he was a Cooperation Associate at CERN openlab. 
 
  <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
 <p align="center"> <a href="https://packt.link/free-ebook/9781804613832">https://packt.link/free-ebook/9781804613832 </a> </p>
+
+
+### Installation instructions
+
+#### Install uv
+
+```bash
+wget -qO- https://astral.sh/uv/install.sh | sh
+```
+
+#### Create venv
+
+```bash
+mkdir .venv
+uv venv .venv
+```
+
+- Source venv
+```bash
+source .venv/bin/bash
+```
+
+#### Install Requirements
+
+```bash
+uv pip install --upgrade pip setuptools
+```
+
+```bash
+uv pip install -r requirements.txt
+```
