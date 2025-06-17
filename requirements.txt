@@ -1,8 +1,0 @@
-qiskit[visualization]
-pylatexenc
-pennylane
-pennylane-qiskit
-qiskit-ibm-runtime
-qiskit-machine-learning
-dwave-ocean-sdk
-notebook

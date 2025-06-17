@@ -1,0 +1,6 @@
+[project]
+name = "qml-learning"
+version = "0.1.0"
+
+[tool.uv]
+managed = true
